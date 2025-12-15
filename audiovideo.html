@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Audio VIDEO</title>
+</head>
+<body>
+
+    <audio  controls src="media/file_example_MP3_700KB.mp3" loop  ></audio>
+
+    <video controls width="250" autoplay muted poster="images/car.png">
+        <source src="/shared-assets/videos/flower.webm" type="video/webm" />
+      
+        <source src="/shared-assets/videos/flower.mp4" type="video/mp4" />
+      
+       
+      </video>
+
+
+      <!--
+        The HTML <iframe> tag specifies an inline frame.
+
+An inline frame is used to embed another document within the current HTML document.
+Syntax
+<iframe src="url" title="description"></iframe>
+      -->
+
+
+      <iframe src="images.html" height="200" width="300" title="Iframe Example"></iframe>
+<br>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/YC1lptzwSlw?si=WRQds8EcRPRn0riR" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+<figure>
+      <img src="workplace.jpg" alt="Workplace" usemap="#workmap">
+      <figcaption>Figure 1.1 DEsktop COmputger</figcaption>
+    </figure>
+
+<map name="workmap">
+  <area shape="rect" coords="34,44,270,350" alt="Computer" href="computer.htm">
+  <area shape="rect" coords="290,172,333,250" alt="Phone" href="phone.htm">
+  <area shape="circle" coords="337,300,44" alt="Coffee" href="coffee.htm">
+</map>
+    
+</body>
+</html>
