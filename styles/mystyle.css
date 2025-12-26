@@ -1,0 +1,46 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+
+/*Grouping Selector*/
+h1,h2,h3,h4,h5,h6{
+    font-family:'Courier New', Courier, monospace;
+}
+
+/* Element Selector*/
+ p{
+    color:#ffccee;
+    border:2px solid #eeffcc;
+}
+/*class Selector*/
+.heading{
+    font-size:25px;
+    text-decoration: overline;
+    font-variant: small-caps;
+}
+/* Id Selector*/
+#container{
+    width:1320px;
+    min-height:500px;
+    background-color:#3e3e5c;
+    margin:auto auto
+}
+
+.row{min-height:5px;}
+.col100{width:100%;}
+.clol75{width:75%; float:left;}
+.clol50{width:50%; float:left;}
+.clol25{width:25%; float:left;}
+.clear{clear:both;}
+
+
+#social{
+    width:50px;
+    right:00px;
+    background-color:#ff0000;
+    min-height:150px;
+    position: fixed;
+    top:150px;
+    border-radius:25px 0px 0px 25px;
+}

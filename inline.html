@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inline and internal css</title>
+    <style>
+        /* Element Selector*/
+        p{
+            color:#ffccee;
+            border:2px solid #eeffcc;
+        }
+        /*class Selector*/
+        .heading{
+            font-size:25px;
+            text-decoration: overline;
+            font-variant: small-caps;
+        }
+        /* Id Selector*/
+        #container{
+            width:1320px;
+            min-height:500px;
+            background-color:#3e3e5c;
+            margin:auto auto
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <h1 class="heading"> My heading goes here</h1>
+    <!-- inline css 
+    # written with all html elements via style attribute with property:value-->
+    <h1 style="color:#ff00ff; font-size:50px; font-weight: bold;">
+        I am heading one
+    </h1>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Animi maiores neque velit, cupiditate doloribus ad, praesentium omnis dignissimos minima autem enim sint aliquid similique debitis ducimus sapiente expedita. Fugit, nihil. Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, minus ipsum harum libero iure facere neque quas error maxime repudiandae pariatur, quia porro perferendis impedit, quibusdam ut nisi animi nam.</p>
+    </div>
+</body>
+</html>
