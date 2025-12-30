@@ -23,8 +23,34 @@ h1,h2,h3,h4,h5,h6{
 #container{
     width:1320px;
     min-height:500px;
-    background-color:#3e3e5c;
+    background-color:#e8e8eb;
     margin:auto auto
+}
+/* Group Selector*/
+img, video{
+    width:100%;
+    height:auto;
+}
+
+#topmenu{
+    width:100%;
+    min-height:50px;
+    background-color: antiquewhite;
+    border-radius: 0px 0px 50px 50px;
+}
+#topmenu ul{
+    list-style-type: none;
+}
+#topmenu ul li{
+    display: inline-block;
+    margin-left:20px;
+    margin-right:20px;
+}
+#topmenu ul li a{
+    text-decoration: none;
+}
+#topmenu ul li a:hover{
+    text-decoration: overline;
 }
 
 .row{min-height:5px;}
