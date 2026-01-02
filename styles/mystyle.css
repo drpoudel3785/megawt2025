@@ -3,6 +3,15 @@
     padding:0px;
 }
 
+img{
+    width:100%;
+    height:auto;
+}
+
+body{
+    background-color: bisque;
+}
+
 /*Grouping Selector*/
 h1,h2,h3,h4,h5,h6{
     font-family:'Courier New', Courier, monospace;
@@ -24,13 +33,9 @@ h1,h2,h3,h4,h5,h6{
     width:1320px;
     min-height:500px;
     background-color:#e8e8eb;
-    margin:auto auto
+    margin:auto auto;
 }
 /* Group Selector*/
-img, video{
-    width:100%;
-    height:auto;
-}
 
 #topmenu{
     width:100%;
@@ -55,9 +60,9 @@ img, video{
 
 .row{min-height:5px;}
 .col100{width:100%;}
-.clol75{width:75%; float:left;}
-.clol50{width:50%; float:left;}
-.clol25{width:25%; float:left;}
+.col75{width:75%; float:left;}
+.col50{width:50%; float:left;}
+.col25{width:25%; float:left;}
 .clear{clear:both;}
 
 
@@ -82,3 +87,21 @@ img, video{
    margin-bottom:10px;
    margin-top:10px;
 }
+
+@media screen and (max-width: 992px) {
+    body {
+    background-color:rgb(35, 65, 162);
+    }
+    #container{width:960px;}
+        .colmd100{width:100%;}
+        .colmd50{width:50%; float:left; margin:0px; padding:0px;}
+        
+    }
+
+@media screen and (max-width: 768px) {
+        body {
+        background-color:rgb(158, 40, 123);
+        }
+        #container{width:720px;}
+        .colsm100{width:100%;margin:0px; padding:0px;}
+        }
