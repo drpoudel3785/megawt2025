@@ -62,7 +62,7 @@ h1,h2,h3,h4,h5,h6{
 .col100{width:100%;}
 .col75{width:75%; float:left;}
 .col50{width:50%; float:left;}
-.col25{width:25%; float:left;}
+.col25{width:25%; float:left; }
 .clear{clear:both;}
 
 
@@ -94,7 +94,7 @@ h1,h2,h3,h4,h5,h6{
     }
     #container{width:960px;}
         .colmd100{width:100%;}
-        .colmd50{width:50%; float:left; margin:0px; padding:0px;}
+        .colmd50{width:50%; float:left;}
         
     }
 
@@ -103,5 +103,5 @@ h1,h2,h3,h4,h5,h6{
         background-color:rgb(158, 40, 123);
         }
         #container{width:720px;}
-        .colsm100{width:100%;margin:0px; padding:0px;}
+        .colsm100{width:100%;}
         }
