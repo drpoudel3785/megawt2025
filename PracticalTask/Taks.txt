@@ -1,0 +1,12 @@
+All task must be submitted on git class room
+Class Room Link: https://classroom.github.com/a/0YXzZ1Df
+
+HTML & CSS
+Task 1: List and Nested List
+Task 2: Site layout by Table with use of Images ,rowspan and colspan
+Task 3: User Registration with login form
+Task 4: Complete layout of Website using most html elements with use of the CSS for Responsive Design : Note minimum 3 pages Home About and Contact
+
+
+Server Side
+Task 1: Use of include, include_once, require, require_once
